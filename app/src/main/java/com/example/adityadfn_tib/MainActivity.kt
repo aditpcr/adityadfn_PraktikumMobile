@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.adityadfn_tib.databinding.ActivityMainBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
+import com.example.adityadfn_tib.Pertemuan5.LimaActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -48,14 +49,19 @@ class MainActivity : AppCompatActivity() {
                 .setMessage("Data yang dihapus tidak bisa dikembalikan.")
                 .setNegativeButton("Batal", null)
                 .setPositiveButton("Hapus") { dialog, _ ->
-                    // proses hapus
                     dialog.dismiss()
                 }
                 .setCancelable(false)
                 .show()
         }
+
         binding.backbtn.setOnClickListener {
             finish()
+        }
+
+        binding.pertemuan5btn.setOnClickListener {
+            val intent = Intent(this@MainActivity, LimaActivity::class.java)
+            startActivity(intent)
         }
     }
 }

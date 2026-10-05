@@ -105,4 +105,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cardSnack" />
 
+    <Button
+        android:id="@+id/pertemuan5btn"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/blue_primary"
+        android:fontFamily="@font/archivo"
+        android:text="Pertemuan 5"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backbtn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
