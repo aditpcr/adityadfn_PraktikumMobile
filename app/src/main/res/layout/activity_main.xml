@@ -109,7 +109,7 @@
         android:id="@+id/pertemuan5btn"
         android:layout_width="290dp"
         android:layout_height="55dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:backgroundTint="@color/blue_primary"
         android:fontFamily="@font/archivo"
         android:text="Pertemuan 5"
@@ -120,5 +120,38 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backbtn" />
+
+    <Button
+        android:id="@+id/pertemuan6btn"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/blue_primary"
+        android:fontFamily="@font/archivo"
+        android:text="Pertemuan 6"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pertemuan5btn" />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/Red"
+        android:fontFamily="@font/archivo"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pertemuan6btn"
+        app:layout_constraintVertical_bias="0.348" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
