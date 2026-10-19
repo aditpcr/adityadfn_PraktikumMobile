@@ -1,4 +1,4 @@
-package com.example.adityadfn_tib.Pertemuan5
+package com.example.adityadfn_tib.Home
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,7 +9,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.adityadfn_tib.MainActivity
 import com.example.adityadfn_tib.R
 import com.example.adityadfn_tib.databinding.ActivityLimaBinding
 

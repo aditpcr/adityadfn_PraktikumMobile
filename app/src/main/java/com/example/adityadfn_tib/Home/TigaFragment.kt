@@ -1,4 +1,4 @@
-package com.example.adityadfn_tib.Pertemuan6
+package com.example.adityadfn_tib.Home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,13 +10,13 @@ import com.example.adityadfn_tib.R
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-class SatuFragment : Fragment() {
+class TigaFragment : Fragment() {
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_satu, container, false)
+        return inflater.inflate(R.layout.fragment_tiga, container, false)
     }
-
 }

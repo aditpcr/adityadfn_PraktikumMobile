@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#EFAD97"
     android:padding="24dp"
-    tools:context=".Pertemuan6.SatuFragment">
+    tools:context=".Home.SatuFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
