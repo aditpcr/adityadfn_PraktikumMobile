@@ -7,12 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.adityadfn_tib.R
 import com.example.adityadfn_tib.databinding.FragmentTabCBinding
 
 class TabCFragment : Fragment() {
     private var _binding: FragmentTabCBinding? = null
     private val binding get() = _binding!!
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -90,7 +92,7 @@ class TabCFragment : Fragment() {
             layoutManager = GridLayoutManager(requireContext(), 2)
 
             // Jika ingin mode Linear:
-            // layoutManager = LinearLayoutManager(requireContext())
+//             layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL,false)
             adapter = productAdapter
         }
     }
