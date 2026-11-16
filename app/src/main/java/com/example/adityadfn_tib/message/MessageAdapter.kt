@@ -14,7 +14,7 @@ import com.example.adityadfn_tib.databinding.ItemMessageBinding
 class MessageAdapter(
     context: Context,
     private val messages: List<MessageModel>
-) : ArrayAdapter<MessageModel>(context, 0, messages) {
+) : android.widget.ArrayAdapter<MessageModel>(context, 0, messages) {
 
     override fun getView(
         position: Int,

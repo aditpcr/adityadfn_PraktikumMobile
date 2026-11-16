@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment
 import com.example.adityadfn_tib.Home.Pertemuan9.NinthActivity
 import com.example.adityadfn_tib.LoginActivity
 import com.example.adityadfn_tib.databinding.FragmentHomeBinding
-import com.example.adityadfn_tib.ui.home.Pertemuan10.TenthActivity
+import com.example.adityadfn_tib.home.Pertemuan10.TenthActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 

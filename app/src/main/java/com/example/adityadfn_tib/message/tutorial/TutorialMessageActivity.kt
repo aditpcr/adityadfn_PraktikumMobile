@@ -3,9 +3,9 @@ package com.example.adityadfn_tib.Message.tutorial
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.adityadfn_tib.databinding.ActivityTutorialMessageBinding
-import com.example.adityadfn_tib.ui.message.tutorial.TutorialFragmentAdapter
+import com.example.adityadfn_tib.message.tutorial.TutorialFragmentAdapter
 
-class TutorialMessageActivity : AppCompatActivity() {
+class TutorialMessageActivity : androidx.appcompat.app.AppCompatActivity() {
 
     private lateinit var binding: ActivityTutorialMessageBinding
 

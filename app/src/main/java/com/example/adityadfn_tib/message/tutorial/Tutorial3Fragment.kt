@@ -10,7 +10,7 @@ import android.content.Intent
 import com.example.adityadfn_tib.R
 import com.example.adityadfn_tib.SplashScreenActivity
 
-class Tutorial3Fragment : Fragment() {
+class Tutorial3Fragment : androidx.fragment.app.Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

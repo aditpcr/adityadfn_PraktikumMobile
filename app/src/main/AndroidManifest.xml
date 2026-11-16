@@ -52,7 +52,11 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".ui.home.Pertemuan10.TenthActivity"
+            android:name=".home.Pertemuan10.TenthActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".note.NoteFormActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>

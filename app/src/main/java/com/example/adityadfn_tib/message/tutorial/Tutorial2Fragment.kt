@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.adityadfn_tib.R
 
-class Tutorial2Fragment : Fragment() {
+class Tutorial2Fragment : androidx.fragment.app.Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

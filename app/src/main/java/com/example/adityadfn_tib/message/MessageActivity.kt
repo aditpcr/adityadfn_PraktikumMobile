@@ -8,7 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.adityadfn_tib.R
 import com.example.adityadfn_tib.databinding.ActivityMessageBinding
 
-class MessageActivity : AppCompatActivity() {
+class MessageActivity : androidx.appcompat.app.AppCompatActivity() {
 
     private lateinit var binding: ActivityMessageBinding
 

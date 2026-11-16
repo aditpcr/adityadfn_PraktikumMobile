@@ -1,8 +1,6 @@
 package com.example.adityadfn_tib
 
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -12,7 +10,7 @@ import com.example.adityadfn_tib.Home.HomeFragment
 import com.example.adityadfn_tib.Message.MessageFragment
 import com.example.adityadfn_tib.More.MoreFragment
 import com.example.adityadfn_tib.databinding.ActivityBaseBinding
-import com.example.adityadfn_tib.databinding.ActivityLoginBinding
+import com.example.adityadfn_tib.note.NoteFragment
 
 class BaseActivity : AppCompatActivity() {
     private lateinit var binding: ActivityBaseBinding
@@ -42,6 +40,10 @@ class BaseActivity : AppCompatActivity() {
                 }
                 R.id.more -> {
                     replaceFragment(MoreFragment())
+                    true
+                }
+                R.id.note -> {
+                    replaceFragment(NoteFragment())
                     true
                 }
                 else -> false

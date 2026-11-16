@@ -17,7 +17,7 @@ import com.example.adityadfn_tib.R
 import com.example.adityadfn_tib.Message.tutorial.TutorialMessageActivity
 import com.example.adityadfn_tib.databinding.FragmentMessageBinding
 
-class MessageFragment : Fragment() {
+class MessageFragment : androidx.fragment.app.Fragment() {
 
     private var _binding: FragmentMessageBinding? = null
     private val binding get() = _binding!!
